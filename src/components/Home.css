@@ -1,0 +1,51 @@
+.home {
+    height: 100vh;
+    background: linear-gradient(to bottom, #daead8, #fffafc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  .content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .content h1 span {
+    color: #ff9eb5;
+  }
+  
+  .content p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    margin-top: 20px;
+    background: #ff9eb5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #ff7a9e;
+  }
+  
+  .home-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #ff7bac;
+    box-shadow: 0 4px 10px rgba(255, 123, 172, 0.3);
+  }

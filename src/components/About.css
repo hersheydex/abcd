@@ -1,0 +1,26 @@
+.about {
+    min-height: 100vh;
+    background-color: #fffafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    color: #ff9eb5;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
