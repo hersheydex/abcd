@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profileImg from "/Users/harshi/abcd copy/src/assets/profile.JPG";
+import profileImg from "../assets/profile.JPG";
 
 
 const Home = () => {
